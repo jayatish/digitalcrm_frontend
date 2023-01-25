@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* 25/01/2023 react design css */
+#slide-section .carousel-root {
+  position: relative;
+}
+#slide-section .carousel-root .carousel {
+  padding-bottom: 18px;
+}
+#slide-section .carousel-root .carousel .control-dots {
+  bottom: -21px;
+}
+
+#slide-section .carousel-root .carousel .control-dots .dot.selected {
+  width: 36px;
+  height: 16px;
+  background: #3A3089 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+}
+#slide-section .carousel-root .carousel .control-dots .dot {
+  margin: 5px 7px;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+  background: #fff;
+  border: 1px solid #2B64A7;
+  width: 16px;
+  height: 16px;
+  margin: 5px 7px;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+  background: #fff;
+  border: 1px solid #2B64A7;
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  box-shadow: none;
+}
+#slide-section .carousel-root .carousel .control-dots .dot:hover {
+  background: #3a3089;
+}
+#slide-section .carousel-root .carousel p {
+  margin: 0 0 15px 0;
+  color: #707070;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
