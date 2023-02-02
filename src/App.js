@@ -7,6 +7,7 @@ import {PublicRoute} from './Routes/Routes'
 import Login from './Containers/Login/Login';
 import CreatePassword from './Containers/CreatPassword/CreatePassword';
 import ForgetPassword from './Containers/ForgetPassword/ForgetPassword';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
   console.log('Enter router');
@@ -21,7 +22,7 @@ function App() {
           {/* <Route path="/login">
             <Route path=":slug" element={<Login />} />
           </Route> */}
-          
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Navigate to="/login" />} />
         </Route>
       </Routes>
